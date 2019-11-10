@@ -55,7 +55,7 @@ def sparseMultiply (sparseX, embedding_matrix):
 start_time = time.time()
 
 args = sys.argv
-if (len(args) < 3):
+if (len(args) < 5):
     print ("Need 2 arg... docrepo")
     sys.exit(0)
 else:

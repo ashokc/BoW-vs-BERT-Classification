@@ -19,7 +19,7 @@ print ('tensorflow.__version__:', tf.__version__)
 print ('tensorflow.keras.__version__:', tf.keras.__version__)
 
 args = sys.argv
-if (len(args) < 3):
+if (len(args) < 5):
     print ("Need 4 args... which_bert, docrepo, # nwords, # epochs")
     sys.exit(0)
 else:
